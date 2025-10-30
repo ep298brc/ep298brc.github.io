@@ -24,11 +24,24 @@ header .logo {
   position: fixed;
   top: 10px;
   right: 16px;
-  height: 100px;  /* ajustá el tamaño si hace falta */
+  height: 300px;  /* ajustá el tamaño si hace falta */
   border-radius: 4px; /* opcional, bordes suaves */
   z-index: 1000; /* para que quede encima de todo */
 }
+/* 🔹 Ajuste automático para pantallas chicas (celulares) */
+@media (max-width: 600px) {
+  header .logo {
+    position: static;     /* deja de ser fijo */
+    display: block;       /* aparece debajo o encima del título */
+    margin: 10px auto 0;  /* centrado */
+    height: 60px;         /* más chico en móvil */
+  }
 
+  header {
+    text-align: center;   /* centra título y logo */
+    padding-top: 10px;
+  }
+}
 
   </style>
 </head>
