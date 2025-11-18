@@ -41,13 +41,18 @@ async function cargarCSV() {
 
   filas.slice(1).forEach(linea => {
     const cols = linea.split(',');
-    if (cols.length >= 5) {
+    if (cols.length === 3) {  // 🔥 AHORA COINCIDE CON TU TABLA
       const tr = document.createElement('tr');
-      cols.forEach(c => {
-        const td = document.createElement('td');
-        td.textContent = c;
-        tr.appendChild(td);
-      });
+
+      // categoría, subcategoría, nombre
+      const td1 = document.createElement('td'); td1.textContent = cols[0];
+      const td2 = document.createElement('td'); td2.textContent = cols[1];
+      const td3 = document.createElement('td'); td3.textContent = cols[2];
+
+      tr.appendChild(td1);
+      tr.appendChild(td2);
+      tr.appendChild(td3);
+
       tbody.appendChild(tr);
     }
   });
@@ -55,5 +60,6 @@ async function cargarCSV() {
 
 cargarCSV();
 </script>
+
 </body>
 </html>
