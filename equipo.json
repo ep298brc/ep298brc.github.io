@@ -1,0 +1,63 @@
+{
+  "equipo_directivo": {
+    "directora": "Silvia Hollosy",
+    "vicedirectoras": {
+      "turno_manana": "Patricia Ledesma",
+      "turno_tarde": "Fernanda Nicola"
+    },
+    "secretaria": {
+      "turno_manana": "Nicolas Volpe",
+      "turno_tarde": ["Olga Llancalahuen", "Alejandra Gonzalez"]
+    }
+  },
+  "fortalecimiento_trayectorias": {
+    "turno_manana": "Carolina Moreno",
+    "turno_tarde": "Valeria Agoni"
+  },
+  "docentes_turno_manana": {
+    "docentes": [
+      "Maria Heim",
+      "Ludmila Nuñez",
+      "Susana Juanico",
+      "Soledad Vidal",
+      "Melanie Karlan Krep",
+      "Hanny Furtado",
+      "Marisa Danielis",
+      "Barbara Bohle",
+      "Silvia Guerrero"
+    ],
+    "mai": ["Belen Dominguez", "Carolina Bertolomi"],
+    "tic": "Walter Gonzalez",
+    "porteros": ["Charly", "Flavia", "Silvia"]
+  },
+  "docentes_turno_tarde": {
+    "docentes": [
+      "Valentina Luna",
+      "Carina Russo",
+      "Ludmila Nuñez",
+      "Roxana Raimondo",
+      "Soledad Vidal",
+      "Juliana Perez",
+      "Jacqueline Pietropaolo",
+      "Julieta Lamas",
+      "Jessica Martino",
+      "Ana Paula Parra",
+      "Agostina Rvozzi"
+    ],
+    "mai": ["Lara Guerrini", "Marisel Zambrano"],
+    "tic": "Diego Garces",
+    "porteros": ["Javier", "Gisela", "Cintia"]
+  },
+  "areas_especiales": {
+    "turno_manana": {
+      "plastica": ["Yohana", "Florencia Caeiro"],
+      "musica": ["Maximiliano Cerati", "Gonzalo Lucero", "Natalia Raspanti"],
+      "educacion_fisica": ["Maria Cruz Follonier", "Miriam Mendive", "Juan Manuel Decara"]
+    },
+    "turno_tarde": {
+      "plastica": ["Carolina Mas", "Natalia Isarrualde"],
+      "musica": ["Andrea Torres", "Leticia", "Cassandra"],
+      "educacion_fisica": ["Andre Itce", "Camila DeLisi", "Cora Langbehn"]
+    }
+  }
+}
