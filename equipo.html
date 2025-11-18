@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Equipo de Trabajo</title>
+  <style>
+    body { font-family: system-ui, sans-serif; background: #f7f9fc; margin: 0; padding: 20px; color: #0b2540; }
+    h1 { text-align: center; }
+    table { width: 100%; border-collapse: collapse; background: white; box-shadow: 0 3px 10px rgba(0,0,0,0.1); }
+    th, td { border: 1px solid #ddd; padding: 8px; }
+    th { background: #0b6ef6; color: white; }
+    .wrap { max-width: 980px; margin: auto; }
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Equipo de Trabajo</h1>
+  <p>Los datos se cargan automáticamente desde <strong>equipo.csv</strong>.</p>
+
+  <table id="tabla-equipo">
+    <thead>
+      <tr>
+        <th>Categoría</th>
+        <th>Subcategoría</th>
+        <th>Turno</th>
+        <th>Nombre</th>
+        <th>Cargo</th>
+        <th>Nota</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+</div>
+
+<script>
+async function cargarCSV() {
+  const resp = await fetch('equipo.csv');
+  const texto = await resp.text();
+  const filas = texto.split(/\r?\n/).filter(l => l.trim() !== "");
+
+  const tbody = document.querySelector('#tabla-equipo tbody');
+  tbody.innerHTML = '';
+
+  filas.slice(1).forEach(linea => {
+    const cols = linea.split(',');
+    if (cols.length >= 5) {
+      const tr = document.createElement('tr');
+      cols.forEach(c => {
+        const td = document.createElement('td');
+        td.textContent = c;
+        tr.appendChild(td);
+      });
+      tbody.appendChild(tr);
+    }
+  });
+}
+
+cargarCSV();
+</script>
+</body>
+</html>
