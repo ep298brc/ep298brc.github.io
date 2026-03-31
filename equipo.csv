@@ -1,32 +1,33 @@
 categoria,subcategoria,nombre
 Equipo Directivo,Directora,Silvia Hollosy
-Equipo Directivo,Vicedirectora Turno MaÒana,Patricia Ledesma
+Equipo Directivo,Vicedirectora Turno Ma√±ana,Patricia Ledesma
 Equipo Directivo,Vicedirectora Turno Tarde,Fernanda Nicola
-Equipo Directivo,SecretarÌa Turno MaÒana,Nicolas Volpe
-Equipo Directivo,SecretarÌa Turno Tarde,Olga Llancalahuen
-Equipo Directivo,SecretarÌa Turno Tarde,Alejandra Gonzalez
-Equipo Directivo,Maestra Fortalecimiento Turno MaÒana,Carolina Moreno
+Equipo Directivo,Secretar√≠a Turno Ma√±ana,Nicolas Volpe
+Equipo Directivo,Secretar√≠a Turno Tarde,Olga Llancalahuen
+Equipo Directivo,Secretar√≠a Turno Tarde,Alejandra Gonzalez
+Equipo Directivo,Maestra Fortalecimiento Turno Ma√±ana,Carolina Moreno
 Equipo Directivo,Maestra Fortalecimiento Turno Tarde,Valeria Agoni
 
-Docentes Turno MaÒana,Docente,Maria Heim
-Docentes Turno MaÒana,Docente,Ludmila NuÒez
-Docentes Turno MaÒana,Docente,Susana Juanico
-Docentes Turno MaÒana,Docente,Soledad Vidal
-Docentes Turno MaÒana,Docente,Melanie Karlan Krep
-Docentes Turno MaÒana,Docente,Hanny Furtado
-Docentes Turno MaÒana,Docente,Marisa Danielis
-Docentes Turno MaÒana,Docente,Barbara Bohle
-Docentes Turno MaÒana,Docente,Silvia Guerrero
-Docentes Turno MaÒana,MAI,Belen Dominguez
-Docentes Turno MaÒana,MAI,Carolina Bertolomi
-Docentes Turno MaÒana,TIC,Walter Gonzalez
-Docentes Turno MaÒana,Porteros,Charly
-Docentes Turno MaÒana,Porteros,Flavia
-Docentes Turno MaÒana,Porteros,Silvia
+Docentes Turno Ma√±ana,Docente,Maria Heim
+Docentes Turno Ma√±ana,Docente,Ludmila Nu√±ez
+Docentes Turno Ma√±ana,Docente,SCUIZZATTO FRANCA
+Docentes Turno Ma√±ana,Docente,Soledad Vidal
+Docentes Turno Ma√±ana,Docente,ROTF ALEJANDRA
+Docentes Turno Ma√±ana,Docente,AGUIRRE YESICA
+Docentes Turno Ma√±ana,Docente,Marisa Danielis
+Docentes Turno Ma√±ana,Docente,GONZALO VILLAR
+Docentes Turno Ma√±ana,Docente,MARTINO JESSICA
+Docentes Turno Ma√±ana,Docente,SILVINA ALBARRAC√çN
+Docentes Turno Ma√±ana,MAI,
+Docentes Turno Ma√±ana,MAI,
+Docentes Turno Ma√±ana,TIC,Walter Gonzalez
+Docentes Turno Ma√±ana,Porteros,Charly
+Docentes Turno Ma√±ana,Porteros,Flavia
+Docentes Turno Ma√±ana,Porteros,Silvia
 
 Docentes Turno Tarde,Docente,Valentina Luna
 Docentes Turno Tarde,Docente,Carina Russo
-Docentes Turno Tarde,Docente,Ludmila NuÒez
+Docentes Turno Tarde,Docente,Ludmila Nu√±ez
 Docentes Turno Tarde,Docente,Roxana Raimondo
 Docentes Turno Tarde,Docente,Soledad Vidal
 Docentes Turno Tarde,Docente,Juliana Perez
@@ -42,20 +43,20 @@ Docentes Turno Tarde,Porteros,Javier
 Docentes Turno Tarde,Porteros,Gisela
 Docentes Turno Tarde,Porteros,Cintia
 
-Areas Especiales TM,Pl·stica,Yohana
-Areas Especiales TM,Pl·stica,Florencia Caeiro
-Areas Especiales TM,M˙sica,Maximiliano Cerati
-Areas Especiales TM,M˙sica,Gonzalo Lucero
-Areas Especiales TM,M˙sica,Natalia Raspanti
-Areas Especiales TM,EducaciÛn FÌsica,Maria Cruz Follonier
-Areas Especiales TM,EducaciÛn FÌsica,Miriam Mendive
-Areas Especiales TM,EducaciÛn FÌsica,Juan Manuel Decara
+Areas Especiales TM,Pl√°stica,Yohana
+Areas Especiales TM,Pl√°stica,Florencia Caeiro
+Areas Especiales TM,M√∫sica,Maximiliano Cerati
+Areas Especiales TM,M√∫sica,Gonzalo Lucero
+Areas Especiales TM,M√∫sica,Natalia Raspanti
+Areas Especiales TM,Educaci√≥n F√≠sica,Maria Cruz Follonier
+Areas Especiales TM,Educaci√≥n F√≠sica,Miriam Mendive
+Areas Especiales TM,Educaci√≥n F√≠sica,Juan Manuel Decara
 
-Areas Especiales TT,Pl·stica,Carolina Mas
-Areas Especiales TT,Pl·stica,Natalia Isarrualde
-Areas Especiales TT,M˙sica,Andrea Torres
-Areas Especiales TT,M˙sica,Leticia
-Areas Especiales TT,M˙sica,Cassandra
-Areas Especiales TT,EducaciÛn FÌsica,Andre Itce
-Areas Especiales TT,EducaciÛn FÌsica,Camila DeLisi
-Areas Especiales TT,EducaciÛn FÌsica,Cora Langbehn
+Areas Especiales TT,Pl√°stica,Carolina Mas
+Areas Especiales TT,Pl√°stica,Natalia Isarrualde
+Areas Especiales TT,M√∫sica,Andrea Torres
+Areas Especiales TT,M√∫sica,Leticia
+Areas Especiales TT,M√∫sica,Cassandra
+Areas Especiales TT,Educaci√≥n F√≠sica,Andre Itce
+Areas Especiales TT,Educaci√≥n F√≠sica,Camila DeLisi
+Areas Especiales TT,Educaci√≥n F√≠sica,Cora Langbehn
