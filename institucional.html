@@ -17,12 +17,22 @@
       color: #0b2540;
     }
 
-    header {
-      background: var(--accent);
-      color: white;
-      padding: 20px 16px;
-      position: relative;
-    }
+   header {
+  background: url('banner.jpeg') center/cover no-repeat;
+  color: white;
+  padding: 60px 16px;
+  position: relative;
+}
+    header::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.2); /* oscurece la imagen */
+}
+    header .wrap {
+  position: relative;
+  z-index: 1;
+}
 
     header .logo {
       position: absolute;
