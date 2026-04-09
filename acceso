@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Acceso</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style="text-align:center; margin-top:100px;">
+
+  <h2>Acceso a Institucional</h2>
+  <input type="password" id="clave" placeholder="Ingresar clave">
+  <br><br>
+  <button onclick="verificar()">Ingresar</button>
+
+  <p id="error" style="color:red;"></p>
+
+  <script>
+    function verificar() {
+      let clave = document.getElementById("clave").value;
+
+      if (clave === "298") {
+        window.location.href = "institucional.html";
+      } else {
+        document.getElementById("error").innerText = "Clave incorrecta";
+      }
+    }
+  </script>
+
+</body>
+</html>
